@@ -21,7 +21,7 @@
           <!-- about -->
           <ul class="nav-menu list">
             <li class="item"><a class="link nav-menu-link studio-link" href="index.html">Studio</a></li>
-            <li class="item"><a class="link nav-menu-link" href="portfolio.html">Portfolio</a></li>
+            <li class="item"><a class="link nav-menu-link " href="portfolio.html">Portfolio</a></li>
             <li class="item"><a class="link nav-menu-link" href="">Contacts</a></li>
           </ul>
         </nav>
@@ -39,7 +39,7 @@
       <section class="hero">
         <div class="container">
             <h1 class="hero-title">Effective Solutions<br>for Your Business</h1>
-            <button type="button" class="order-button">Order Service</button>
+            <button type="button" data-modal-open class="order-button">Order Service</button>
             </div>
             </div>
       </section> 
@@ -386,7 +386,7 @@
                 <li class="end-icons-list list">
                   <a href="#" class="end-social-link">
                     <svg class="end-svg-icons" width=24px height="24px">
-                      <use href="./images/icons.svg#linkedin2">
+                      <use href="./images/icons.svg#instagram2">
                       </use>
                     </svg>
                   </a>
@@ -397,6 +397,20 @@
       </div>
     </footer>
 
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="modal-close" data-modal-close>
+          <a href="#" class="modal-close-link">
+            <svg class="modal-close-icon" width=8px height="8px">
+              <use href="./images/icons.svg#close">
+              </use>
+            </svg>
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <script src="js/modal.js"></script>
   </body>
   
 </html>
